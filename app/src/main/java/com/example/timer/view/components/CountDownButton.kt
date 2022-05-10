@@ -59,9 +59,9 @@ fun CountDownButton(
 
             ) {
             val pair = if (!isPlaying) {
-                "START"
+                "SEND REQUEST"
             } else {
-                "STOP"
+                "CANCEL"
             }
 
             Text(

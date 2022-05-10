@@ -37,7 +37,6 @@ fun CountDownIndicator(
     size: Int,
     stroke: Int
 ) {
-
     val animatedProgress by animateFloatAsState(
         targetValue = progress,
         animationSpec = ProgressIndicatorDefaults.ProgressAnimationSpec,

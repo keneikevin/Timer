@@ -51,7 +51,7 @@ fun CountDownView(
         }
 
         Text(
-            text = "Timer",
+            text = "Pieme",
             color = androidx.compose.ui.graphics.Color.White,
             fontSize = 25.sp,
             textAlign = TextAlign.Center,
@@ -63,7 +63,7 @@ fun CountDownView(
         )
 
         Text(
-            text = "1 minute to pie...",
+            text = "Ordered Quantity:2",
             color = androidx.compose.ui.graphics.Color.White,
             fontSize = 16.sp,
             textAlign = TextAlign.Center,
@@ -74,7 +74,7 @@ fun CountDownView(
         )
 
         Text(
-            text = "Click to start or stop countdown",
+            text = "Average response time: $time",
             color = androidx.compose.ui.graphics.Color.White,
             fontSize = 14.sp,
             textAlign = TextAlign.Center,

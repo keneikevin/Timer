@@ -42,7 +42,7 @@ fun MyApp() {
 
     Column(modifier = Modifier
         .padding(0.dp)
-        .background(Color(0xFF651FFF))
+        .background(Color(0xFF2979FF))
         .fillMaxWidth()
     ) {
 
